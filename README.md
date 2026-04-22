@@ -15,7 +15,7 @@ Tech Stack
 - Language: Java 17
 - Framework: Spring Boot
 - Database: MongoDB Atlas (for job tracking and results)
-- AI Core: Groq Cloud (llama-3.1-8b-instant)
+- AI Core: Groq Cloud
 - Deployment: Docker & Render
 
 API Reference
