@@ -15,11 +15,11 @@ import java.util.Map;
 @Slf4j
 public class GroqService {
 
-    @Value("${GROQ_API_KEY}")
+    @Value("${groq.api.key:${GROQ_API_KEY:}}")
     private String apiKey;
 
-    @Value("${groq.api.url}")
-    private String apiUrl;
+   @Value("${groq.api.url:https://api.groq.com/openai/v1/chat/completions}")
+   private String apiUrl;
 
     private final WebClient webClient = WebClient.create();
     private final ObjectMapper objectMapper = new ObjectMapper();
