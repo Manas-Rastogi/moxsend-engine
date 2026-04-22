@@ -42,7 +42,8 @@ spring:
 
 groq:
   api:
-    key: ${GROQ_API_KEY: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}
+    groq:
+    api-key: ${GROQ_API_KEY}
     url: https://api.groq.com/openai/v1/chat/completions
 
 async:
