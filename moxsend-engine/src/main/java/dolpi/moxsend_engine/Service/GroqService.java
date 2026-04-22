@@ -15,7 +15,7 @@ import java.util.Map;
 @Slf4j
 public class GroqService {
 
-    @Value("${groq.api.url:https://api.groq.com/openai/v1/chat/completions}")
+    @Value("${GROQ_API_KEY}")
     private String apiKey;
 
     @Value("${groq.api.url}")
