@@ -10,7 +10,7 @@ How it works
 2. Instant Response: You immediately get a jobId so you don't have to wait for the processing to finish.
 3. AI Processing: In the background, the engine uses Llama 3.1 to create a custom opening line and two catchy subject lines for every lead.
 4. Fetch: Use your jobId to download the completed results once the status hits COMPLETED.
-
+---------------------------------------------------
 Tech Stack
 - Language: Java 17
 - Framework: Spring Boot
