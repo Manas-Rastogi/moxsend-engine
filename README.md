@@ -46,7 +46,7 @@ Response:
     }
   ]
 }
-
+---------------------------------------------------
 CSV Structure
 The engine expects a CSV with these headers:
 Name, Company, Industry, City
