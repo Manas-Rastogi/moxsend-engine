@@ -35,19 +35,39 @@ public class GroqService {
     private String buildPrompt(String name, String company,
                                String industry, String city) {
         return """
-                You are a B2B email copywriter.
-                Generate content for this lead:
+               Write cold email content for this B2B lead:
 
-                Name: %s
-                Company: %s
-                Industry: %s
-                City: %s
+                - First Name: %s
+                - Company: %s
+                - Industry: %s
+                - City: %s
 
-                Return ONLY valid JSON, no extra text:
+                Deliverables:
+
+                1. openingLine
+                   - Exactly 1 sentence (max 20 words)
+                   - Reference their industry or city in a natural, non-forced way
+                   - Must feel personally researched, not templated
+                   - Never start with "I", "We", or the prospect's name
+                   - No compliments, no "I came across your profile"
+
+                2. subject1 (Curiosity-based)
+                   - Under 7 words
+                   - Creates intrigue without being clickbait
+                   - Lowercase preferred (feels more human)
+                   - No emojis, no question marks
+
+                3. subject2 (Value-based)
+                   - Under 7 words
+                   - Specific to their industry or role
+                   - Implies a clear benefit or outcome
+                   - No emojis
+
+                Return ONLY this JSON structure, nothing else:
                 {
-                  "openingLine": "personalized opening line",
-                  "subject1": "first subject line",
-                  "subject2": "second subject line"
+                  "openingLine": "...",
+                  "subject1": "...",
+                  "subject2": "..."
                 }
                 """.formatted(name, company, industry, city);
     }
