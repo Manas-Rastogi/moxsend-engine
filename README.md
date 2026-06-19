@@ -23,6 +23,7 @@ Tech Stack
 API Reference
 ---------------------------------------------------
 1. Upload Leads
+---------------
 POST /api/upload
 Upload your CSV via form-data using the key file.
 
