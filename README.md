@@ -64,4 +64,4 @@ Local Setup
 1. Clone the repo: git clone https://github.com/Manas-Rastogi/moxsend-engine.git
 2. Environment Variables: Set your MONGODB_URI and GROQ_API_KEY in application.yml.
 3. Run: mvn spring-boot:run
----------------------------
+---------------------------------------------------
