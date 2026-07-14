@@ -38,7 +38,7 @@ Response:
 
 2. Check Status & Get Data
 GET /api/result/{jobId}
-
+---------------------------------------------------
 Response:
 {
   "status": "COMPLETED",
