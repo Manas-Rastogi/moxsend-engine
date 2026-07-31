@@ -21,6 +21,7 @@ Tech Stack
 - Database: MongoDB Atlas (for job tracking and results)
 - AI Core: Groq Cloud
 - Deployment: Docker & Render
+---------------------------------------------------
 
 API Reference
 ---------------------------------------------------
