@@ -61,7 +61,7 @@ Name, Company, Industry, City
 ---------------------------------------------------
 Scalability Note
 The current version uses an asynchronous thread pool to process rows. To scale this to 10k+ rows, the architecture is designed to easily integrate Apache Kafka for distributed queuing and horizontal scaling across multiple Docker containers.
-
+---------------------------------------------------
 Local Setup
 ---------------------------------------------------
 ---------------------------------------------------
