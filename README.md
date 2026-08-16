@@ -36,7 +36,7 @@ Response:
   "status": "PENDING",
   "totalRows": 50
 }
-
+---------------------------------------------------
 2. Check Status & Get Data
 GET /api/result/{jobId}
 ---------------------------------------------------
