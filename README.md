@@ -10,7 +10,9 @@ https://moxsend-engine.onrender.com
 ---------------------------------------------------
 How it works
 1. Upload: Send a CSV file to the system.
-2. Instant Response: You immediately get a jobId so you don't have to wait for the processing to finish.
+---------------------------------------------------
+2. Instant Response: You immediately get a jobId so
+ you don't have to wait for the processing to finish.
 3. AI Processing: In the background, the engine uses Llama 3.1 to create a custom opening line and two catchy subject lines for every lead.
 4. Fetch: Use your jobId to download the completed results once the status hits COMPLETED.
 ---------------------------------------------------
